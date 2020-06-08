@@ -8,7 +8,7 @@ After=docker.service
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-WorkingDirectory=/home/bomzheg/docker-services/nginx_le
+WorkingDirectory=PATH/TO/THIS/PATH/nginx_le
 ExecStart=/usr/local/bin/docker-compose up -d
 ExecStop=/usr/local/bin/docker-compose down
 TimeoutStartSec=3
