@@ -12,3 +12,5 @@ docker-compose pull
 docker-compose up -d
 
 if need add bot or anoher service: just add in path etc/bots file "some_bot.conf" as like example lyt_poster and run docker-compose exec nginx nginx -s reload
+
+forked from https://github.com/nginx-le/nginx-le
