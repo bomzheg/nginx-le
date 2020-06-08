@@ -27,4 +27,4 @@ services:
 networks:
   default:
     external:
-      name: nginx-revers-proxy
+      name: nginx-reverse-proxy
