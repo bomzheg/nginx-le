@@ -23,6 +23,8 @@ services:
             - "80:80"
             - "443:443"
         env_file: .env
+        extra_hosts:
+          - "host.docker.internal:host-gateway"
 
 networks:
   default:
